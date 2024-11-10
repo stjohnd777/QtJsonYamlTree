@@ -1,0 +1,72 @@
+Algortihms:
+  Cameras:
+    N1:
+      H: "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+      K: "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      bpp: 2
+      dim: "[640, 512]"
+      name: LWIRN1
+    N2:
+      H: "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+      K: "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      bpp: 2
+      dim: "[640, 512]"
+      name: LWIRN2
+    U1:
+      H: "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+      K: "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      bpp: 2
+      dim: "[640, 512]"
+      name: LWIRU1
+    U2:
+      H: "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+      K: "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      bpp: 2
+      dim: "[640, 512]"
+      name: LWIRU2
+  LMVS:
+    ReferencePoint:
+      Subitem1: Value3
+      Subitem2: Value4
+    SparseStereo:
+      Camera1: N1
+      Camera2: N2
+      Course3dof:
+        Blobs:
+          Item1: Value1
+          Item2: Value2
+          Item3: Value1
+          Item4: Value2
+          Item5: Value1
+          Item6: Value2
+        SparseStereo:
+          DirectSample:
+            alpha: 0.0001
+            beta: 0.0001
+            gamma: 0.0001
+            threshold: 0.0001
+          alpha: 0.0001
+          beta: 0.0001
+          gamma: 0.0001
+          threshold: 0.0001
+        alpha: 0.0001
+        beta: 0.0001
+        gamma: 0.0001
+        threshold:
+          default: 0.0001
+          desc: adjacent pixels under difference threshold are ignored
+          type: float
+          value: 0.1
+      PreProcessing:
+        alogrithms: "[{\"enabled\":true,\"name\":\"BadPixel\"}, {\"enabled\":true,\"name\":\"NUC\"}, {\"enabled\":true,\"name\":\"Undistort\"}]"
+        enabled: true
+  OpenCV:
+    ORB:
+      Item1: Value1
+      Item2: Value2
+    SIFT:
+      Item1: Value1
+      Item2: Value2
+    SURF:
+      Item1: Value1
+      Item2: Value2

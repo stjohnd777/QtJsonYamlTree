@@ -1,0 +1,20 @@
+# ninja log v6
+1	6	1731082421613497799	CMakeFiles/clean.additional	7d922b6d5ea46f13
+6	9	1731082421618718016	clean	664b3904ad226ff8
+666	738	1731043945303521437	UdemyCustomPaint.app/Contents/MacOS/UdemyCustomPaint	9b21f45b261dfe1e
+157	838	1731043921436097120	CMakeFiles/UdemyCustomPaint.dir/main.cpp.o	b5e45fd21b941a48
+7	23	1731043944644545197	/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/UdemyCustomPaint_autogen/timestamp	21a70e84974b39e4
+7	23	1731043944644545197	/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/UdemyCustomPaint_autogen/mocs_compilation.cpp	21a70e84974b39e4
+7	23	1731043944644545197	UdemyCustomPaint_autogen/mocs_compilation.cpp	21a70e84974b39e4
+23	666	1731043944660867860	CMakeFiles/UdemyCustomPaint.dir/mainwindow.cpp.o	cbecee7b69f833e5
+14	164	1731082423188327081	build.ninja	3e303a457bc00b29
+157	896	1731043921435946161	CMakeFiles/UdemyCustomPaint.dir/UdemyCustomPaint_autogen/mocs_compilation.cpp.o	ec7d13ce8660ceb3
+7	23	1731043944644545197	UdemyCustomPaint_autogen/timestamp	21a70e84974b39e4
+1	154	1731082443759016154	JsonTree_autogen/timestamp	42426074b9bb9a2
+1	154	1731082443759016154	JsonTree_autogen/mocs_compilation.cpp	42426074b9bb9a2
+1	154	1731082443759016154	/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/JsonTree_autogen/timestamp	42426074b9bb9a2
+1	154	1731082443759016154	/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/JsonTree_autogen/mocs_compilation.cpp	42426074b9bb9a2
+155	855	1731082443765657685	CMakeFiles/JsonTree.dir/main.cpp.o	f3abc0a157a1a19c
+155	909	1731082443765481813	CMakeFiles/JsonTree.dir/JsonTree_autogen/mocs_compilation.cpp.o	7b0c407ccf93b527
+155	910	1731082443765750226	CMakeFiles/JsonTree.dir/mainwindow.cpp.o	3dc3b5bedb0ab5d9
+910	994	1731082444520172251	JsonTree.app/Contents/MacOS/JsonTree	bd45d0fabd85a40f

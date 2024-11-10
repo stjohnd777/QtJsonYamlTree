@@ -1,0 +1,9 @@
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/JsonTree.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/JsonTree_autogen_timestamp_deps.dir
+/Users/danielst.johnst.john/development/QT/UdemyCustomPaint/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/JsonTree_autogen.dir

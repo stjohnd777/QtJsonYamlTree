@@ -1,0 +1,126 @@
+{
+    "Algortihms": {
+
+        "Cameras" : {
+            "N1" : {
+                "name" : "LWIRN1",
+                "K" : [1,2,3,4,5,6,7,8,9],
+                "H" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                "dim" : [640,512],
+                "bpp" : 2
+            },
+            "N2" : {
+                "name" : "LWIRN2",
+                "K" : [1,2,3,4,5,6,7,8,9],
+                "H" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                "dim" : [640,512],
+                "bpp" : 2
+            },
+            "U1" : {
+                "name" : "LWIRU1",
+                "K" : [1,2,3,4,5,6,7,8,9],
+                "H" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                "dim" : [640,512],
+                "bpp" : 2
+            },
+            "U2" : {
+                "name" : "LWIRU2",
+                "K" : [1,2,3,4,5,6,7,8,9],
+                "H" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                "dim" : [640,512],
+                "bpp" : 2
+            },
+            "V1" : {
+                "name" : "NV1",
+                "K" : [1,2,3,4,5,6,7,8,9],
+                "H" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                "dim" : [2592,1944],
+                "bpp" : 2
+            },
+            "V2" : {
+                "name" : "NV2",
+                "K" : [1,2,3,4,5,6,7,8,9],
+                "H" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                "dim" : [2592,1944],
+                "bpp" : 2
+            }
+        },
+
+        "LMVS": {
+            "SparseStereo" : {
+
+                "Camera1" : "N1",
+                "Camera2" : "N2",
+
+                "PreProcessing" :{
+                    "enabled":true,
+                    "alogrithms" : {
+                        "one":{
+                            "name":"BadPixel",
+                            "enabled":true
+                        },
+                        "two":{
+                            "name":"NUC",
+                            "enabled":true
+                        },
+                        "three":{
+                            "name":"Undistort",
+                            "enabled":true
+                        }
+                    }
+                },
+
+                "Course3dof": {
+                    "Blobs": {
+                        "Item1": "Value1",
+                        "Item2": "Value2",
+                        "Item3": "Value1",
+                        "Item4": "Value2",
+                        "Item5": "Value1",
+                        "Item6": "Value2"
+                    },
+                    "SparseStereo": {
+                        "DirectSample": {
+                            "alpha": "0.0001",
+                            "beta": "0.0001",
+                            "gamma": "0.0001",
+                            "threshold": "0.0001"
+                        },
+                        "alpha": "0.0001",
+                        "beta": "0.0001",
+                        "gamma": "0.0001",
+                        "threshold": "0.0001"
+                    },
+                    "alpha": "0.0001",
+                    "beta": "0.0001",
+                    "gamma": "0.0001",
+                    "threshold": {
+                        "default": "0.0001",
+                        "desc": "adjacent pixels under difference threshold are ignored",
+                        "type": "float",
+                        "value": "0.1"
+                    }
+                }
+            },
+
+            "ReferencePoint": {
+                "Subitem1": "Value3",
+                "Subitem2": "Value4"
+            }
+        },
+        "OpenCV": {
+            "ORB": {
+                "Item1": "Value1",
+                "Item2": "Value2"
+            },
+            "SIFT": {
+                "Item1": "Value1",
+                "Item2": "Value2"
+            },
+            "SURF": {
+                "Item1": "Value1",
+                "Item2": "Value2"
+            }
+        }
+    }
+}
